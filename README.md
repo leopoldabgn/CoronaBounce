@@ -23,5 +23,6 @@ java -jar coronaBounce*.jar
 ```
 
 ## How to change settings
+Click on the settings button at the top of the window. Then you just need to move all the sliders to change the settings.  When you close this small window, the settings will be automatically saved and applied to the simulation.
 
 ## Preview
