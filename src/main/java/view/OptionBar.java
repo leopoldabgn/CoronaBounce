@@ -32,7 +32,7 @@ public class OptionBar extends JToolBar
 		private static final long serialVersionUID = 1L;
 		{
             putValue(Action.NAME, "Propreties");
-            putValue(Action.SMALL_ICON, new ImageIcon("src/resources/settings-icon.png"));
+            putValue(Action.SMALL_ICON, new ImageIcon(getClass().getClassLoader().getResource("settings-icon.png")));
             putValue(Action.MNEMONIC_KEY, KeyEvent.VK_K);
             putValue(Action.SHORT_DESCRIPTION, "Propreties (CTRL+P)");
             putValue(Action.ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_P, KeyEvent.CTRL_DOWN_MASK)); 
